@@ -125,7 +125,7 @@ dd {
 }
 
 /* =========================================================
-   Responsive Breakpoints
+   Responsive web design tablet phone small phone
    ========================================================= */
 
 /* --- Tablet (<= 900px) --- */
@@ -135,21 +135,18 @@ dd {
         padding: 1.5em;
     }
 
-    /* Reduce large left padding so text doesn't feel cramped */
     .home,
     .content {
         padding-left: 3em;
         padding-right: 1em;
     }
 
-    /* Make 3-up columns become 2-up on tablets */
     .onethird {
         width: 50%;
         padding-left: 1.25em;
         padding-right: 1.25em;
     }
 
-    /* Keep halves as halves, but tighten padding */
     .onehalf {
         padding-left: 1.25em;
         padding-right: 1.25em;
@@ -183,14 +180,13 @@ dd {
 
     header {
         margin-top: 120px;
-    } /* room for stacked nav */
+    }
 
     #wrapper {
         width: 94%;
         padding: 1.25em;
     }
 
-    /* Reduce hero/header padding & allow natural height */
     .home {
         height: auto;
         min-height: 260px;
@@ -202,7 +198,6 @@ dd {
         padding: 2.25em 1.25em 1.5em 1.25em;
     }
 
-    /* Single-column layout on mobile */
     .onethird,
     .onehalf {
         float: none;
